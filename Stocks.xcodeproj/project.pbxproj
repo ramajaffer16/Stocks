@@ -10,6 +10,7 @@
 		65B076D12C3FB89E00E65479 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 65B076D02C3FB89E00E65479 /* RxCocoa */; };
 		65B076D32C3FB89E00E65479 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 65B076D22C3FB89E00E65479 /* RxSwift */; };
 		65B076D52C3FCF6600E65479 /* StocksModelresponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B076D42C3FCF6600E65479 /* StocksModelresponse.swift */; };
+		65B1E09D2C467EA500177F34 /* StocksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B1E09C2C467EA500177F34 /* StocksViewModel.swift */; };
 		65E7542E2C3FADDD00CF5AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7542D2C3FADDD00CF5AC8 /* AppDelegate.swift */; };
 		65E754302C3FADDD00CF5AC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E7542F2C3FADDD00CF5AC8 /* SceneDelegate.swift */; };
 		65E754322C3FADDD00CF5AC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E754312C3FADDD00CF5AC8 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		65B076D42C3FCF6600E65479 /* StocksModelresponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksModelresponse.swift; sourceTree = "<group>"; };
+		65B1E09C2C467EA500177F34 /* StocksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksViewModel.swift; sourceTree = "<group>"; };
 		65E7542A2C3FADDD00CF5AC8 /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E7542D2C3FADDD00CF5AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65E7542F2C3FADDD00CF5AC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		65E754422C3FAE5000CF5AC8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				65B1E09C2C467EA500177F34 /* StocksViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				65E754322C3FADDD00CF5AC8 /* ViewController.swift in Sources */,
 				65E7542E2C3FADDD00CF5AC8 /* AppDelegate.swift in Sources */,
 				65E754302C3FADDD00CF5AC8 /* SceneDelegate.swift in Sources */,
+				65B1E09D2C467EA500177F34 /* StocksViewModel.swift in Sources */,
 				65B076D52C3FCF6600E65479 /* StocksModelresponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

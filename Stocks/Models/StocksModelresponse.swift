@@ -14,11 +14,11 @@ import Foundation
 //    let item: String
 
 
-struct stocksresponse: Decodable {
-    let results: [stocksresponseresults]
+struct stocksResponse: Decodable {
+    let results: [stocksResponseResults]
 }
 
-struct stocksresponseresults: Decodable {
+struct stocksResponseResults: Decodable {
     let c: Double
     let o: Double
     let h: Double
