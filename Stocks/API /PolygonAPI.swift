@@ -43,7 +43,7 @@ func fetchAPI()-> Observable<[stocks]>{
             }catch {
                 observer.onError(error)
                 return
-            }
+            }.
         }
         task.resume()
         
